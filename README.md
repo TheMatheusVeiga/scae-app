@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+SCAE - Communication System for the Nursing Area
+================================================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Description
+-------------------
 
-## Available Scripts
+SCAE (Smart Communication System for the Nursing Area) is a web application that aims to revolutionize communication within the health area, specifically catering to the needs of nurses and healthcare professionals. The system provides an intelligent platform for seamless and efficient communication, allowing nurses to collaborate effectively, share critical information, and improve patient care.
 
-In the project directory, you can run:
+The main features of SCAE include:
 
-### `npm start`
+-   Real-time Messaging: Nurses can exchange messages and updates instantly, promoting quick responses and smoother coordination.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   Notifications and Alerts: The system will send timely notifications and alerts to keep healthcare professionals informed about important events and changes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-   Patient Information Management: Nurses can access and update patient information securely and conveniently.
 
-### `npm test`
+-   Task Assignment: SCAE allows the allocation of tasks among nursing staff, ensuring proper task management and accountability.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   Data Analysis and Insights: The system provides analytical tools to gain insights from communication patterns and optimize workflow.
 
-### `npm run build`
+SCAE is built using React.js for the frontend, a robust API for handling backend operations, and a database to securely store essential data.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation Standards
+----------------------
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To set up the SCAE project locally, please follow the steps below:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Ensure that you have the following installed on your system:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-   Node.js: SCAE requires Node.js to be installed. You can download it from the official Node.js website ([https://nodejs.org](https://nodejs.org/)).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   npm (Node Package Manager): npm is installed automatically along with Node.js. However, it's essential to have an up-to-date version. You can update npm using the following command:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    Copy code
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    `npm install -g npm`
 
-## Learn More
+-   Git: You need Git installed to clone the project repository from GitHub. You can download it from the official Git website (<https://git-scm.com/downloads>).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-   Database: SCAE utilizes a database for storing data. Make sure you have a compatible database system installed, such as PostgreSQL or MySQL.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation Steps
 
-### Code Splitting
+1.  Clone the Repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Open a terminal or command prompt and run the following command to clone the SCAE project repository:
 
-### Analyzing the Bundle Size
+    bashCopy code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    `git clone https://github.com/TheMatheusVeiga/scae-app.git`
 
-### Making a Progressive Web App
+    Replace `your-username` with your GitHub username.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2.  Navigate to the Project Directory:
 
-### Advanced Configuration
+    Change your working directory to the SCAE project folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    bashCopy code
 
-### Deployment
+    `cd SCAE`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3.  Install Dependencies:
 
-### `npm run build` fails to minify
+    To install the project dependencies, run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Copy code
+
+    `npm install`
+
+4.  Configure the API and Database:
+
+    -   Set up the backend API by following the instructions in the API documentation.
+    -   Configure the database connection in the backend to ensure the application can store and retrieve data properly.
+5.  Start the Development Server:
+
+    Once the setup is complete, start the development server with the following command:
+
+    sqlCopy code
+
+    `npm start`
+
+6.  Access the Application:
+
+    Open your web browser and navigate to `http://localhost:3000` to access the SCAE application.
+
+Contribution Guidelines
+-----------------------
+
+We welcome contributions to enhance the SCAE project. If you would like to contribute, please follow these guidelines:
+
+-   Fork the SCAE repository.
+-   Create a new branch for your feature or bug fix.
+-   Commit your changes and push them to your fork.
+-   Submit a pull request with a clear explanation of your changes.
+
+Please ensure that your contributions align with our project's code of conduct and quality standards.
+
+* * * * *
+
+Thank you for your interest in SCAE! We hope this intelligent communication system will make a significant impact in the nursing area and improve patient care through efficient collaboration. If you encounter any issues or have questions, feel free to reach out to our team or open an issue on GitHub. Happy coding!
